@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/awilliams/linode"
+	"github.com/MaxiMobility/linode"
 
 	"code.google.com/p/gcfg"
 )
