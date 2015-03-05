@@ -37,3 +37,13 @@ See [Developing Dynamic Inventory Sources](http://docs.ansible.com/developing_in
 
  `./linode-inventory --list`
 
+## Changelog
+
+### 0.1.1 - 2015 March 5th
+
+ * Always use first private or public address identified.
+
+### 0.1.0
+
+ * First public release.
+

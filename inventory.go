@@ -42,9 +42,9 @@ func (i *inventory) toJSON() ([]byte, error) {
 func publicPrivateIP(ips []linode.LinodeIP) (string, string) {
 	var pub, prv string
 	for _, ip := range ips {
-		if ip.IsPublic() {
+		if ip.IsPublic() && pub == "" {
 			pub = ip.IP
-		} else {
+		} else if prv == "" {
 			prv = ip.IP
 		}
 		if pub != "" && prv != "" {
