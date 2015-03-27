@@ -39,6 +39,10 @@ See [Developing Dynamic Inventory Sources](http://docs.ansible.com/developing_in
 
 ## Changelog
 
+### 0.1.2 - 2015 March 27th
+
+ * Fixed bug in linode library with max server list limit
+
 ### 0.1.1 - 2015 March 5th
 
  * Always use first private or public address identified.
