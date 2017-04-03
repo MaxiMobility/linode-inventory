@@ -5,7 +5,7 @@ package main
 import (
 	"encoding/json"
 
-	"github.com/MaxiMobility/linode"
+	"github.com/cabify/linode"
 )
 
 func newInventory(nodes map[int]*linodeWithIPs) *inventory {

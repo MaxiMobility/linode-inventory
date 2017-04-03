@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/MaxiMobility/linode"
+	"github.com/cabify/linode"
 
 	"gopkg.in/gcfg.v1"
 )
